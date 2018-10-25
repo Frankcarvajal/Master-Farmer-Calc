@@ -1,11 +1,10 @@
-#Master farmer pickpocket calc
-##Choose the amount of thieving xp
+##Modify to the amount of Thieving xp to gain at Master Farmer
 gain_xp = 250000
 ##################################
 xp = 43
 pps = gain_xp/xp
 print("number of pickpockets",pps)
-pps = 2*pps #rouge outfit
+pps = 2*pps #rouge outfit = 2 seeds per pick pocket
 seeds = dict()
 
 seeds["limp"] = pps/86.3
